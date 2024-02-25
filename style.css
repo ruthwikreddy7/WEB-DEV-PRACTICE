@@ -1,0 +1,89 @@
+*{
+	margin : 0px;
+	padding : 0px;
+	box-sizing : border-box;
+}
+html,body{
+	height: 100%;
+	width : 100%;
+}
+
+#mainpage
+{
+	
+	height : 100%;
+	width : 100%;
+	background-image : linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('img1.jpg');
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+}
+.heading1{
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+	color : whitesmoke;
+	background-color : grey;
+	
+	padding : 15px;
+}
+.orange{
+	color: #F65E06;
+}
+.green{
+	color: green;
+}
+#content1{
+	height : 30%;
+	
+	background-color : #AEA7A3;
+	text-align : center;
+	width : 100%;
+}
+#mainpage2{
+	height : 70%;
+	width : 100%;
+	background-image :linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('img2.jpg');
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+
+}
+.heading2{
+	font-size: 40px;
+}
+#mainpage3{
+	position : relative;
+	height : 100%;
+	width : 100%;
+	background-image :linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('south.jpg');
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+
+}
+.heading3{
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+	font-size : 40px;
+	
+	
+	color : whitesmoke;
+	
+	
+	
+}
+.content1in{
+	overflow : hidden;
+	height : 100%;
+	width : 100%;
+}
+.southhead{
+	background-color : grey;
+	
+	padding : 15px;
+}
+
